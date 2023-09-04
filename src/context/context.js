@@ -17,7 +17,6 @@ export function GenresProvider({ children }) {
         console.error('Error fetching genres:', error)
       }
     }
-
     fetchGenres()
   }, [])
 
