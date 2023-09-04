@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+}
+
+
+li {
+    list-style: none;
+    list-style-type: none;
+}
+
+.app-container {
+    width: 938px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.ant-input-group-wrapper {
+    margin-top: 20px;
+}
+
+.ant-input {
+}
+
+.ant-btn {
+    display: none;
+}
+
+.ant-typography ul li {
+    margin: 0px;
+    padding: 3px;
+}
+
+.offline-error {
+    margin-top: 50px;
+
+}
+
+.ant-tabs-nav-list {
+    margin-left: 45%;
+}

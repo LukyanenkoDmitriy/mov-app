@@ -1,0 +1,50 @@
+.list-conteiner {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/*  */
+.list-films {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.info-wrapper {
+    margin-left: 20px;
+}
+
+.film-card__title {
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.film-card__release-date {
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #827E7E;
+}
+
+.film-card__genres {
+    margin-bottom: 5px;
+}
+
+.movie-description {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ant-select {
+    display: none;
+}
